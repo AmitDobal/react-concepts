@@ -1,9 +1,14 @@
+import ListPage from "./pages/list-page";
+import ModalsPage from "./pages/modals";
 import Split from "./pages/split";
-
 
 const App = () => {
   return (
-    <Split />
+    <>
+      {/* <ListPage /> */}
+      {/* <Split /> */}
+      <ModalsPage />
+    </>
   );
 };
 
